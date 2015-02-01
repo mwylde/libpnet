@@ -11,7 +11,7 @@ extern crate libc;
 use std::collections::{RingBuf};
 use std::cmp;
 use std::ffi::CString;
-use std::io::{IoResult, IoError};
+use std::old_io::{IoResult, IoError};
 use std::iter::repeat;
 use std::mem;
 use std::sync::Arc;
